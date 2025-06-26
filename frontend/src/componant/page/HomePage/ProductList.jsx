@@ -59,6 +59,7 @@ export const ProductList = () => {
       .then((res) => res.json())
       .then((data) => {
         setProducts(data.products); // ✅ API gives { message, products: [...] }
+        console.log(data.product)
       })
       .catch((error) => {
         console.error("Error fetching products:", error);

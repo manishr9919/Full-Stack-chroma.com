@@ -10,6 +10,7 @@ export const Home = () => {
       <Slider />
       <Slider2 />
       <ProductList />
+      <h1>hello guys </h1>
     </div>
   );
 };
