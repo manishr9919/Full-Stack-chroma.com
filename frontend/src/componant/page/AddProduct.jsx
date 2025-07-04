@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -37,7 +36,8 @@ const AddProduct = () => {
         formData.append("image", imageFile);
       }
 
-      const apiEndpoint = "https://croma-fullstack-project.onrender.com/product/addProduct";
+      const apiEndpoint =
+        "https://croma-fullstack-project.onrender.com/product/addProduct";
 
       const response = await axios.post(apiEndpoint, formData, {
         headers: {
@@ -144,10 +144,10 @@ const AddProduct = () => {
             <option value="mobiles">Mobiles</option>
             <option value="television">Television</option>
             <option value="laptops">Laptops</option>
-            <option value="headphones-hearphones">
+            <option value=" Headphones & Hearphones">
               Headphones & Hearphones
             </option>
-            <option value="kitchen-appliances">Kitchen Appliances</option>
+            <option value="Kitchen Appliances">Kitchen Appliances</option>
           </select>
         </div>
 
