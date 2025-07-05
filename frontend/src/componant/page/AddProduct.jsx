@@ -17,6 +17,8 @@ const AddProduct = () => {
     setProductData({ ...productData, [name]: value });
   };
 
+  console.log("Submitted product data:", productData);
+
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     setImageFile(file);
@@ -37,7 +39,7 @@ const AddProduct = () => {
       }
 
       const apiEndpoint =
-        "https://croma-fullstack-project.onrender.com/product/addProduct";
+        "https://full-stack-chroma-com.onrender.com/product/addProduct";
 
       const response = await axios.post(apiEndpoint, formData, {
         headers: {
@@ -147,7 +149,7 @@ const AddProduct = () => {
             <option value="headphones & earphones">
               Headphones & Earphones
             </option>
-            <option value="Kitchen Appliances">Kitchen Appliances</option>
+            <option value="kitchen-appliances">Kitchen Appliances</option>
           </select>
         </div>
 
