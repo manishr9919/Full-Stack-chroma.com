@@ -12,7 +12,7 @@ const productSchema = new mongoose.Schema(
         "television",
         "laptops",
         "headphones & earphones",
-        "Kitchen Appliances",
+        "kitchen-appliances",
       ],
       required: true,
     }, // Enum for predefined categories
