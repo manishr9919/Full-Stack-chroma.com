@@ -25,7 +25,7 @@ export const SignUp = () => {
 
     try {
       const response = await axios.post(
-        "https://fullstackapp-banckend-for-cw-5.onrender.com/signup/registration",
+        "https://full-stack-chroma-com.onrender.com/signup/registration",
         formData,
         {
           headers: {
