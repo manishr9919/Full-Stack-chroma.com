@@ -36,7 +36,8 @@ Password: Admin@123
    git clone https://github.com/your-username/croma-clone.git
 
 
-  ```cd frontend
+  ```
+cd frontend
 npm install
 npm start
 
