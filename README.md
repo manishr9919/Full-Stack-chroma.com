@@ -8,7 +8,7 @@ A full-featured e-commerce website inspired by [Croma.com](https://www.croma.com
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB + Mongoose
 - **Authentication:** JWT
-- **State Management:** Redux
+- **State Management:** UseState
 
 ## 🔐 Admin Login (for testing)
 
@@ -35,7 +35,8 @@ Password: Admin@123
    ```bash
    git clone https://github.com/your-username/croma-clone.git
 
-   ```cd frontend
+   ```
+   cd frontend
 npm install
 npm start
-```
+
